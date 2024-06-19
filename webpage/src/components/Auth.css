@@ -1,0 +1,36 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../../public/image1.jpg") no-repeat center center/cover; /* 절대 경로 설정 */
+  }
+  
+  .auth-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .auth-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .message-success {
+    color: lightgreen;
+  }
+  
+  .message-error {
+    color: lightcoral;
+  }
