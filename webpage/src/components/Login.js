@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import './Auth.css';
+import React, { useState } from "react";
+import "./Auth.css";
 
 function Login() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   return (
     <div className="auth-container">
@@ -21,8 +21,8 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button>로그인</button>
-        <button>회원가입</button>
+        <button>Login</button>
+        <button>Join</button>
       </div>
     </div>
   );
